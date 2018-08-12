@@ -1,7 +1,10 @@
 <view class="content">
-  <open-data type="userAvatarUrl" class="content__avatar"/>
-  <view class="content__title">{{title}}
-    <open-data type="userNickName" class="content__title__nickname"/>
+  <view class="header">
+    <open-data type="userAvatarUrl" class="header__avatar"/>
+    <view class="header__title">{{title}}
+      <open-data type="userNickName" class="header__title__nickname"/>
+    </view>
   </view>
+  <test-component class='test-component' title="{{componentTitle}}"/>
 </view>
 <view class="description" bind:tap="didClickDescription">{{description}}</view>

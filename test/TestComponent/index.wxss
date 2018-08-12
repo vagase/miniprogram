@@ -1,0 +1,44 @@
+:host {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20rpx;
+    border: 1rpx #e7e7e7 solid;
+    border-radius: 10rpx;
+}
+
+.title {
+    font-size: 28rpx;
+    color: gray;
+
+    margin-bottom: 20rpx;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.counter__action {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    width: 40rpx;
+    height: 40rpx;
+    font-size: 30rpx;
+
+    border: 1rpx #e7e7e7 solid;
+    border-radius: 8rpx;
+}
+
+.counter__val {
+    font-size: 28rpx;
+    font-weight: 600;
+
+    margin:0 20rpx;
+}
+

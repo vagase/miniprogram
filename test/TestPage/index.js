@@ -6,6 +6,7 @@ class TestPage extends MPPage {
         
         this.data.title = 'Hello ';
         this.data.description = 'Powered by "MPPage"';
+        this.data.componentTitle = 'MPComponent Test';
     }
     
     didClickDescription(e) {

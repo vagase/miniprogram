@@ -1,0 +1,8 @@
+<view class="title">{{title}}</view>
+<view class="counter">
+  <view class="counter__action counter__action--plus"
+        bind:tap="didClickPlus">+</view>
+  <view class="counter__val">{{counter}}</view>
+  <view class="counter__action counter__action--minus"
+        bind:tap="didClickMinus">-</view>
+</view>
