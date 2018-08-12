@@ -6,3 +6,5 @@
   <view class="counter__action counter__action--minus"
         bind:tap="didClickMinus">-</view>
 </view>
+
+<view class="navigate" bind:tap="openPage">open page</view>

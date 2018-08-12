@@ -1,8 +1,11 @@
 import MPComponent from "../../src/MPComponent"
+import testBehavior from "../TestBehavior/index";
 
 export default class TestComponent extends MPComponent {
     constructor() {
         super('TestComponent');
+        
+        this.behaviors.push(testBehavior);
         
         this.properties.title = {
             type: String,

@@ -1,6 +1,7 @@
 {
   "pages": [
-    "test/TestPage/index"
+    "test/TestPage/index",
+    "test/TestPage2/index"
   ],
   "window": {
   }
