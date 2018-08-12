@@ -1,0 +1,7 @@
+<view class="content">
+  <open-data type="userAvatarUrl" class="content__avatar"/>
+  <view class="content__title">{{title}}
+    <open-data type="userNickName" class="content__title__nickname"/>
+  </view>
+</view>
+<view class="description" bind:tap="didClickDescription">{{description}}</view>
